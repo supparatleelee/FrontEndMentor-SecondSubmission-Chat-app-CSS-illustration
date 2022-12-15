@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.bg-item1 {
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: -25px;
+  border-radius: 0 0 50% 50%;
+  background: rgb(214, 1, 240);
+  background: linear-gradient(
+    180deg,
+    rgba(214, 1, 240, 1) 0%,
+    rgba(136, 50, 255, 1) 100%
+  );
+}
