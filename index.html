@@ -8,55 +8,75 @@
   </head>
 
   <body>
-    <div class="bg-item1">asd</div>
+    <div class="bg-item1"></div>
     <div class="bg-item2"></div>
 
-    <div>
+    <div class="items-container">
       <div class="mobile-container">
         <div class="mobile-frame"></div>
 
         <div class="header">
-          <!-- back icon -->
-          <!-- profile image -->
-          <div class="user-information">
-            <h1>Samuel Green</h1>
-            <p>Available to Walk</p>
+          <div class="user-container">
+            <i class="arrow left"></i>
+
+            <div class="user-details">
+              <img
+                class="avatar"
+                src="./images/avatar.jpg"
+                alt="profile-image"
+              />
+              <div class="user-information">
+                <h1>Samuel Green</h1>
+                <p>Available to Walk</p>
+              </div>
+            </div>
           </div>
-          <!-- more menus -->
+
+          <div class="more-menus">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
         </div>
 
         <div class="chat-body">
-          <p>That sounds great. I’d be happy with that.</p>
-          <p>Could you send over some pictures of your dog, please?</p>
+          <p class="chat-left">That sounds great. I’d be happy with that.</p>
+          <p class="chat-left">
+            Could you send over some pictures of your dog, please?
+          </p>
 
           <div class="images">
-            <!-- 3 dog images -->
+            <img src="./images/dog-image-1.jpg" alt="dog" />
+            <img src="./images/dog-image-2.jpg" alt="dog" />
+            <img src="./images/dog-image-3.jpg" alt="dog" />
           </div>
-          <p>Here are a few pictures. She’s a happy girl!</p>
-          <p>Can you make it?</p>
-          <p>
+          <p class="chat-right">Here are a few pictures. She’s a happy girl!</p>
+          <p class="chat-right">Can you make it?</p>
+          <p class="chat-left">
             She looks so happy! The time we discussed works. How long shall I
             take her out for?
           </p>
 
-          <div>
-            <!-- empthy check icon -->
-            <p>30 minute walk</p>
+          <div class="payment-info">
+            <div>
+              <div class="empty-check-icon"></div>
+              <p>30 minute walk</p>
+            </div>
             <p>$29</p>
           </div>
 
-          <div>
-            <!-- empthy check icon -->
-            <p>1 hour walk</p>
+          <div class="payment-info">
+            <div>
+              <div class="empty-check-icon"></div>
+              <p>1 hour walk</p>
+            </div>
             <p>$49</p>
           </div>
-        </div>
 
-        <div class="chat-sender">
-          <form>
+          <form class="chat-sender">
             <input type="text" placeholder="Type a message…" />
             <button type="submit">
-              <!-- submit icon -->
+              <i class="arrow right"></i>
             </button>
           </form>
         </div>
